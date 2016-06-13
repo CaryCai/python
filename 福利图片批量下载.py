@@ -1,5 +1,5 @@
 import urllib
-a=int(input('ÇëÊäÈëÄãÒªÏÂÔØµÄÍ¼Æ¬ÊıÁ¿:'))
+a=int(input('è¯·è¾“å…¥ä½ è¦ä¸‹è½½çš„å›¾ç‰‡æ•°é‡:'))
 
 i=100
 while i<=a:
@@ -8,8 +8,8 @@ while i<=a:
     path = r"d:/test/"+b+".jpg"
     u = r"http://www.boboporn.net/media/photos/"
     u=u+b+'.jpg'
-    print 'ÏÂÔØµØÖ·£º',u,'±£´æÎ»ÖÃ£º',path
+    print 'ä¸‹è½½åœ°å€ï¼š',u,'ä¿å­˜ä½ç½®ï¼š',path
     data = urllib.urlretrieve(u,path)
-print('±¾³ÌĞòÊôÓÚ by:ÎŞµĞ£¬QQ:1239890175£¬´óÅ£ÎğÅç£¡')    
+
 
  
